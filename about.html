@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+        <style>
+        .centrar-imagen {
+          text-align: center;
+        }
+    
+        .centrar-imagen img {
+          display: inline-block;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .equipo-member {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+      </style>
+    <title>Sobre Nosotros</title>
+    <script src="java.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sobre Nosotros</h1>
+        <p>¡Protege nuestro recurso vital!</p>
+        <button id="toggle-theme">Cambiar Tema</button>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="importancia del agua.html">Importancia del Agua</a></li>
+          <li><a href="Producto.html">Producto</a></li>
+          <li><a href="Prevencion.html">Cuidados</a></li>
+          <li><a href="about.html">Sobre Nosotros</a></li>
+          <li><a href="Waos.html">Preguntas Frecuentes</a></li>
+      </ul>
+  </nav>
+
+    <main>
+      <section>
+        <h2>Conoce a nuestro equipo</h2>
+        <div class="centrar-imagen">
+        <img src="a72ba143-f8a2-4e4f-8d31-50ded0d44229.png" width="500" height="250">
+      </div>
+        <p>Somos un equipo de la prestigiosa institucion educativa de nombre "Cesar Abraham vallejo Mendoza" en el cual estamos comprometidos con la concienciación sobre la importancia del agua y la lucha contra su contaminación. Nuestra misión es informar, educar y promover prácticas sostenibles para proteger este recurso vital para todos nostros. Dando a conocer a la poblacion en general sobre como cuidarla y aprovecharla de una muy buena manera.</p>
+    </section>
+        <section>
+            <h2>Nuestra Misión</h2>
+            <p>Somos un equipo de la prestigiosa institucion educativa de nombre "Cesar Abraham vallejo Mendoza" en el cual estamos comprometidos con la concienciación sobre la importancia del agua y la lucha contra su contaminación. Nuestra misión es informar, educar y promover prácticas sostenibles para proteger este recurso vital para todos nostros. Dando a conocer a la poblacion en general sobre como cuidarla y aprovecharla de una muy buena manera.</p>
+        </section>
+        
+
+        <section>
+            <h2 class="Revo">Contactanos</h2>
+            <form action="">
+              <fieldset>
+                <legend>informacion personal</legend>
+              <label for="name">Nombre:</label>
+              <br>
+              <input type="tipo" id="nombre" name="nombre"/>
+              <br>
+              <label for="fechaCac">Fecha de Nacimiento:</label>
+              <br>
+              <input type="date" id="FechaNac" name="FechaNac"/>
+              <br>
+              <label for="name">Genero:</label>
+              <input type="radio" id="Genero" name="Genero"/>
+              <label for="Genero">Masculino</label>
+              <input type="radio" id="Genero" name="Genero"/>
+              <label for="Genero">Femenino</label>    
+              <br>            
+              </fieldset>
+             <fieldset>
+                <legend>Informacion de Contacto</legend>
+                <label for="name">Preferencias de Contacto:</label>
+                <br> 
+                <input list="Preferencias de Contacto"/>
+                <datalist id="Preferencias de Contacto">
+                  <option value="Numero telefonico"></option>
+                  <option value="Correo Electronico"></option>
+                </datalist>
+              </fieldset>
+              <fieldset>
+                <legend>Consulta de usuario</legend>
+                <br>
+                <label for="direccionCorreo">Correo electrónico</label>
+                <input type="email" name="correo" id="correo">
+                <br>
+                <label for="Consulta">Consulta</label>
+                <br>
+                <textarea name="consulta" id="consulta" cols="20" rows="2"></textarea>
+                <br>
+                <input type="reset" value="Borrar"/>
+                <input type="submit" value="Enviar"/>
+                </fieldset>
+            </form>
+          </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Madness Project</p>
+    </footer>
+</body>
+</html>

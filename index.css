@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #fff;
+    background-image: url("https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1700006400&semt=ais");
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 20%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #000000; 
+}
+
+h2 {
+    color: #3498db;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+.dark-theme header {
+    background-color: #ffffff;
+    background-image: url("https://images.pexels.com/photos/4638772/pexels-photo-4638772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.dark-theme h1 {
+    color: #ffffff; 
+}
+  
+  .dark-theme section {
+    color: #fff;
+    background-color: #333;
+    border-radius: 20%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .dark-theme main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .dark-theme #toggle-theme {
+    background-color: #2a75a2;
+    color: #fff;
+  }
+  
+  .dark-theme #toggle-theme:hover {
+    background-color: #1c5678;
+  }
